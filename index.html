@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.jpg">
+  <title>Котопёс</title>
+  <link rel="stylesheet" href="pages/css/style.css">
+  <link rel="stylesheet" href="pages/css/hamburger.css">
+  <link rel="stylesheet" href="pages/css/media.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a class="menu__item" href="index.html">О приюте</a></li>
+      <li><a class="menu__item" href="pages/2page/2.html">В поисках дома</a></li>
+      <li><a class="menu__item" href="pages/4page/4.html">Памятка владельцу</a></li>
+      <li><a class="menu__item" href="pages/3page/3.html">Помочь приюту</a></li>
+    </ul>
+  </div>
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="logo">
+        <div class="logo__title">Котопёс</div>
+        <div class="logo__subtitle">Приют для домашних животных <br> в Нижнем Новгороде</div>
+      </div>
+      <nav class="menu">
+        <ul class="list">
+          <li class="list__item">
+            <a class="list__link list__link_active" href="index.html">
+              О приюте
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link list__link_normal" href="pages/2page/2.html">
+              В поисках дома
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link list__link_normal" href="pages/4page/4.html">
+              Памятка владельцу
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link list__link_normal" href="pages/3page/3.html">
+              Помочь приюту
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link list__link_normal" href="#footer">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="hero">
+      <div class="wrapper">
+        <div class="hero__content">
+          <div class="content-section">
+            <h2 class="content-section__title">Не только люди <br> нуждаются в доме
+            </h2>
+            <p class="content-section__subtitle"> Мы предлагаем дать шанс маленькому и милому щенку или котенку с
+              чрезвычайно широким и открытым сердцем. Это крохотное существо будет любить вас больше, чем кого-либо
+              другого в мире, вот увидите!
+            </p>
+            <a href="#OurFriends" class="link-button">
+              <button type="button" class="content-section__button">
+                Найти друга
+              </button></a>
+          </div>
+          <img src="assets/images/start-screen-puppy.png" alt="puppy" class="hero__image">
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="wrapper">
+        <div class="about__content">
+          <img src="assets/images/about-pets.png" alt="cat and dog" class="about__image">
+          <div class="about__content-section">
+            <h3 class="about__content-section__title">
+              О приюте “Котопёс”
+            </h3>
+            <p class="about__content-section__subtitle">
+              В настоящее время у нас на руках 121 собака и 342 кошки, и статистика показывает, что только 20% из них
+              найдут семью. Остальные продолжат жить с нами и будут ждать счастливого шанса стать горячо любимыми.
+            </p>
+            <p class="about__content-section__subtitle">
+              Мы кормим наших подопечных самой лучшей едой и следим за тем, чтобы они не болели, чувствовали себя
+              комфортно (в том числе психологически) и хорошо себя чувствовали. Нас поддерживают 87 волонтеров и 28
+              сотрудников различного уровня квалификации. Около 12% животных забирают сотрудники приюта. Заботясь о
+              животных, они привязываются к питомцам и вряд ли когда-нибудь оставят их в покое.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ourFriends" id="OurFriends">
+      <div id="carouselExampleCaptions" class="carousel slide wrapper">
+        <div class="ourFriends__content">
+          <h3 class="ourFriends__content__title">
+            Наши друзья, которые ищут дом
+          </h3>
+          <div class="carousel-inner">
+            <div class="ourFriends__content__pets carousel-item active">
+              <div class="ourFriends__content__pets-inner first-pet" data-id="0">
+                <img src="assets/images/Alt.jpg" alt="our friends" class="ourFriends__image">
+                <div class="ourFriends__name-button">
+                  <p class="ourFriends__card-title">Альт</p>
+                </div>
+              </div>
+              <div class="ourFriends__content__pets-inner second-pet" data-id="1">
+                <img src="assets/images/Captain.jpg" alt="our friends" class="ourFriends__image">
+                <div class="ourFriends__name-button">
+                  <p class="ourFriends__card-title">Капитан</p>
+                </div>
+              </div>
+              <div class="ourFriends__content__pets-inner third-pet" data-id="2">
+                <img src="assets/images/Envy.jpg" alt="our friends" class="ourFriends__image">
+                <div class="ourFriends__name-button">
+                  <p class="ourFriends__card-title">Энви</p>
+                </div>
+              </div>
+            </div>
+            <div class="ourFriends__content__pets carousel-item">
+              <div class="ourFriends__content__pets-inner first-pet" data-id="0">
+                <img src="assets/images/Ginny.jpg" alt="our friends" class="ourFriends__image">
+                <div class="ourFriends__name-button">
+                  <p class="ourFriends__card-title">Джинни</p>
+                </div>
+              </div>
+              <div class="ourFriends__content__pets-inner second-pet" data-id="7">
+                <img src="assets/images/Hermes.jpg" alt="our friends" class="ourFriends__image">
+                <div class="ourFriends__name-button">
+                  <p class="ourFriends__card-title">Гермес</p>
+                </div>
+              </div>
+              <div class="ourFriends__content__pets-inner third-pet" data-id="6">
+                <img src="assets/images/Meroll.jpg" alt="our friends" class="ourFriends__image">
+                <div class="ourFriends__name-button">
+                  <p class="ourFriends__card-title">Меролл</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="pages/2page/2.html">
+            <button type="button" class="ourFriends__button">Познакомиться с остальными</button>
+          </a>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="ourFriends-arrow">←</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="ourFriends-arrow">→</span>
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="wrapper footer-wrapper">
+      <div class="footer__content">
+        <div class="footer__questions ">
+          <h3 class="footer__questions-title">Для вопросов и предложений</h3>
+          <div class="footer__questions-contacts">
+            <a class="footer__link" href="mailto:email@kotopes.ru">
+              <img src="assets/icons/mail.svg" class="footer__icon" alt="">
+            </a>
+            <a href="mailto:email@kotopes.ru" class="footer__link">
+              <h4 class="footer__questions-subTitle">email@kotopes.ru</h4>
+            </a>
+          </div>
+          <div class="footer__questions-contacts">
+            <a href="tel:79876543210" class="footer__link">
+              <img src="assets/icons/phone.svg" class="footer__icon" alt="">
+            </a>
+            <a href="tel:79876543210" class="footer__link">
+              <p class="footer__questions-subTitle">+7 987 654 32 10</p>
+            </a>
+          </div>
+        </div>
+        <div class="footer__questions">
+          <h3 class="footer__questions-title">Мы ждем вашего визита</h3>
+          <div class="footer__questions-contacts">
+            <a href="https://yandex.ru/maps/47/nizhny-novgorod/house/prospekt_gagarina_22/YEoYfw9lS0QAQFtsfX54eHVmZA==/?ll=43.985218%2C56.299951&z=17.09"
+              class="footer__link" target="_blank">
+              <img src="assets/icons/pin.svg" class="footer__icon" alt="">
+            </a>
+            <a href="https://yandex.ru/maps/47/nizhny-novgorod/house/prospekt_gagarina_22/YEoYfw9lS0QAQFtsfX54eHVmZA==/?ll=43.985218%2C56.299951&z=17.09"
+              class="footer__link" target="_blank">
+              <h4 class="footer__questions-subTitle">Нижний Новгород, пр-т Гагарина, 22
+              </h4>
+            </a>
+          </div>
+          <div class="footer__questions-contacts">
+            <a href="https://yandex.ru/maps/47/nizhny-novgorod/house/bolshaya_pokrovskaya_ulitsa_61/YEoYfw5jS0YOQFtsfX9wd3xjZA==/?ll=43.993239%2C56.316000&z=17.09"
+              class="footer__link" target="_blank">
+              <img src="assets/icons/pin.svg" class="footer__icon" alt=""></a>
+            <a href="https://yandex.ru/maps/47/nizhny-novgorod/house/bolshaya_pokrovskaya_ulitsa_61/YEoYfw5jS0YOQFtsfX9wd3xjZA==/?ll=43.993239%2C56.316000&z=17.09"
+              class="footer__link" target="_blank">
+              <h4 class="footer__questions-subTitle">Нижний Новгород, Большая Покровская ул., 61
+              </h4>
+            </a>
+          </div>
+        </div>
+        <img src="assets/images/footer-puppy.png" alt="" class="footer__image">
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
